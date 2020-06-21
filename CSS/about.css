@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro:wght@300&display=swap');
+/* start first about section */
+#a-bout{
+width: 100vw;
+height: 90vh;
+background: url('../img/bedroom-door-entrance-guest-room-271639\ \(1\).jpg') no-repeat center center/cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+font-family: cursive;
+}
+
+#a-bout .f-article{
+  width: 40vw;
+  background: #333333a1;
+  height: 85vh;  
+  padding: 2rem 1rem 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#a-bout .f-article .abts{
+ font-size: 1.8rem;
+ margin-top: -3vh;
+ margin-bottom: 3vh;
+ font-family: Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ font-weight: 800;
+ /* color: burlywood; */
+ color: #ffffff75;
+}
+
+.l-b{
+  border-left: 5px solid rgb(238, 140, 13);
+  padding-left: 4px;
+}
+
+
+#a-bout .f-article ul{
+  padding-top: 6vh;
+}
+
+#a-bout .f-article ul .first-itm i {
+margin-left: .5rem;
+font-size: 1rem;
+opacity: .7;
+}
+ 
+#a-bout .f-article ul .second-itm i {
+  margin-left: .5rem;
+font-size: 1rem;
+opacity: .7;
+}
+ 
+#a-bout .f-article ul .first-itm a{
+color: #fff;
+padding: .5rem 1rem .5rem 1rem;
+/* margin-left:5vw ; */
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1rem;
+background: #333333a4;
+}
+ 
+#a-bout .f-article ul .second-itm a{
+color: #fff;
+padding: .5rem 1rem .5rem 1rem;
+margin-left:2rem ;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1rem;
+background: #333333a4;
+}
+
+
+#a-bout .f-article ul .first-itm a:hover{
+  color: black;
+  background: #fff;
+}
+ 
+#a-bout .f-article ul .second-itm a:hover{
+  color: black;
+  background: #fff;
+}
+ 
+#a-bout .f-article p{
+  color: #fff;
+  line-height: 1.6;
+  white-space: 22;
+  letter-spacing: -22;
+  text-align: center;
+  /* margin-top: 3vh; */
+}
+
+#a-bout .f-article ul li {
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+}
+
+#a-bout .f-article ul li a{
+  text-decoration: none;
+  color: #f0f8ffb4;
+}
+
+/* finish first about section */
+/* start second about section */
+#s-article{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #333333;
+}
+
+#s-article p{
+  font-size: 1.4rem;
+  padding-top: 1.02rem;
+  border-bottom: 2px solid rgb(238, 140, 13);
+  font-family:  cursive;
+  color: rgba(238, 140, 13, 0.849);
+}
+
+#s-article h1{
+  font-size: 2.4rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  opacity: .8;
+  word-spacing: 7px;
+}
+
+
+
+
+
+
+
+
+
+#about-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#about-container .c-ele .in-im{
+  width:46vw;
+  height: 400px;
+  padding: 0.2rem .5rem; 
+}
+
+.common{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 45vw;
+  height: 400px;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+ .common h2{
+  text-align: center;
+  font-family: cursive;
+  padding-bottom: .5rem ;
+  border-bottom: 2px solid rgba(238, 140, 13, 0.849);
+  color: #333333;
+  margin-top: 1rem;
+}
+.common p {
+  text-align:center;
+  line-height: 1.5;
+  margin-top: 4vh;
+  margin: 3rem 0;
+  font-size: 1.2rem;
+  font-family: 'Sriracha', cursive;
+  padding: 0 1rem;
+} 
+.c-ele {
+  display: flex;
+  flex-direction: row;
+  /* width: 100vw; */
+  height: 400px;
+}
+
+.c-rev{
+  display: flex;
+  flex-direction: row-reverse;
+  /* background-color: #C78641; */
+  background-color: #c78641a8;
+  color: #fff;
+  
+}
+
+.c-one{
+  background-color: rgba(0, 0, 0, 0.507);
+  /* margin-top:10vh; */
+  color: #F0F0F0;
+}
+
+.c-on{
+  background-color: rgba(0, 0, 0, 0.507);
+  color: #F0F0F0;
+}
+
+
+
+.p-rev > h2{
+  border-bottom: 3px solid #fff !important;
+}
+
+#ins{
+  color: rgb(238, 140, 13);
+  border-bottom: 3px solid rgb(238, 140, 13);
+}

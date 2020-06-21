@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+#current{
+  background: #e78709;
+  
+}
+
+#contact-section{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 500px;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  font-size: 1.3rem;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: 'Abril Fatface', cursive;
+  line-height: 1.5;
+  
+}
+
+.contact-form {
+  /* color: rgba(238, 140, 13, 0.512) ; */
+  color: #fcd7aaa9;
+  display: flex;
+  justify-content: space-between;
+  margin-right: -3vw;
+  background: #333333;
+  /* background-color: #a1ddf767; */
+  padding: 2.5rem 2rem;
+  border-top-right-radius:200% ;
+  border-top-left-radius:80% ;
+  border-bottom-right-radius:90% ;
+  border-bottom-left-radius:120%;
+}
+
+.contact-form input{
+  /* padding: 1rem 6rem; */
+  font-size: 1.2rem;
+  padding: .5rem 7rem .5rem 0rem;
+}
+
+
+.button{
+  display: block;
+margin: auto;
+margin-top: 1rem;
+padding: .5rem 7rem;
+border: none;
+background-color:  rgb(238, 140, 13);
+font-size: 1.3rem;
+border-radius: 30px;
+color: #fff;
+font-weight: 800;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover{
+  background-color:#A1DDF7 ;
+  color:  rgb(238, 140, 13);
+ 
+}
+
+.round{ 
+  width: 60px;
+  height: 60px;
+  background-color: #f8c17960;
+  border-radius: 50%;
+  margin-left: -65vw;
+  margin-top: -25vw;
+}
+
+
+.contact-image{ 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4px;
+  width: 600px;
+  height: 500px;
+  margin-right: 29vw;
+  margin-left:-3vw;
+}
+.contact-form form input,label,button {
+  display: block;
+}
+
+
+#icon-section{
+  display: flex;
+  width: 100vw;
+  height: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+ padding: .5rem 5rem;
+ text-align: center;
+ align-items: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: rgba(245, 222, 179, 0.438);
+ margin-top: 18px;
+}
+
+#icon-section h2{
+  padding: 1rem 0;
+}
+#icon-section p{
+  font-size: 15px;
+  padding-top: 1rem;
+}
+
+
+form > p{
+  color: #fff;
+  margin-left: 4.3rem;
+  font-size: 1.5rem;
+  margin-top: -1rem;
+  margin-bottom: .8rem;
+  font-family: cursive;
+}
+
+.contact-form{
+  margin-top: 1.3rem;
+}
+
+.ex{
+  color: #e78709;
+ 
+}

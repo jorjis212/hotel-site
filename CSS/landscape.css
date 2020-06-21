@@ -1,0 +1,14 @@
+@media (min-width: 1400px){
+ 
+  #about-container .c-ele .in-im{
+    height: 450px;
+  }
+
+  .common{
+    height: 450px;
+  }
+
+  .c-ele{
+    height: 450px;
+  }
+}

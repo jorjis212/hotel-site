@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+  body{  
+    background-color: red;
+  }
+
+  header,footer{
+    display: none;
+  }
+
+  #error{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100vh;
+    text-align: center;
+  }
+
+
+  #error p{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+  }
+}
